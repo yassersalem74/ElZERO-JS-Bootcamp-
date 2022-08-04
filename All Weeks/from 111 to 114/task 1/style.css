@@ -1,0 +1,42 @@
+body{
+font-family: 'Cairo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 48px;
+  }
+
+  .inputs {
+    display: flex;
+    gap: 64px;
+    /* margin-right: 60px; */
+  }
+
+  select {
+    width: 100px;
+    padding: 8px 0;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+
+  .result {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #f44336;
+    width: 400px;
+    margin: 0 auto;
+    padding: 8px 16px;
+    border: 1px solid currentColor;
+    border-radius: 10px;
+    background-color: black;
+  }
+
